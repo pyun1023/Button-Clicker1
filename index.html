@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <h1 class="title">Dojonary</h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <button class="login" onclick="login(this)">Login</button>
+    </nav>
+    <main>
+        <section class="leftSide">
+            <div class="box">
+                <div class="word">
+                    <h1> ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <p>Plural: <span>ninjas</span></p>
+                    <br>
+                    <button onclick="liked(this)"><b>13 likes</b></button>
+                </div>
+                <div>
+                    <h3>A practitioner skilled in the <br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="word">
+                    <h1> ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <p>Plural: <span>ninjas</span></p>
+                    <br>
+                    <button onclick="liked(this)"><b>37 likes</b> </button>
+                </div>
+                <div>
+                    <h3>A <a href="#">programmer</a> who breaks <br>
+                        down problems with <a href="#">zen</a>-like <br>
+                        focus
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section class="message">
+            <h1>Dojonary is <br>
+                defined by <B>YOU</B>
+            </h1>
+            <button onclick="removeButton(this)">Add Definition</button>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
